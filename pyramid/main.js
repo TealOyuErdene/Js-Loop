@@ -17,7 +17,6 @@
 const number = 20
 let output = ''
 
-
 for(let i = 1; i <= number; i++){
     for(let j = 1; j <= number-i; j++){
         output += ' '
@@ -28,17 +27,5 @@ for(let i = 1; i <= number; i++){
     output += '\n'
 } 
 console.log(output)
-
-const num = 7
-let base = ''
-base += '\n               '
-for(let x = 1; x <= num; x++){
-    for(let y = 1; y <= num-y; y++){
-        base += '* '
-    }
-    base += '*'
-    base += '\n               '
-}
-console.log(base)
 
 
